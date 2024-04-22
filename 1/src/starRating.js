@@ -20,7 +20,6 @@ export default function StarRating({
   size = 48,
   messages = [],
   defaultRating = 0,
-  setMovieRating,
 
 }) {
   //Two states are declared one to set rating of the stars when clicked and one to set rating i.e. temporary rating when hovering the star buttons.
@@ -32,7 +31,6 @@ export default function StarRating({
   //Handle Rating function set the rating setRating state to the rating passed under the argument rating that it accepts and is being called in this same component
   function handleRating(rating) {
     setRating(rating);
-    setMovieRating(rating);
   }
 
   //Styling Elements
