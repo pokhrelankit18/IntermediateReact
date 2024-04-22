@@ -20,7 +20,6 @@ export default function StarRating({
   size = 48,
   messages = [],
   defaultRating = 0,
-
 }) {
   //Two states are declared one to set rating of the stars when clicked and one to set rating i.e. temporary rating when hovering the star buttons.
   //Both are set to zero as that is their initial rating
