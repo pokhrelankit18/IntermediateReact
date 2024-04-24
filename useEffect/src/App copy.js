@@ -9,6 +9,7 @@ const average = (arr) =>
 
 const KEY = "89578d44";
 
+
 export default function App() {
   const [query, setQuery] = useState("3 idiots");
   const [watched, setWatched] = useState([]);
